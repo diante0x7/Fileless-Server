@@ -1,5 +1,7 @@
 # Fileless-Server
 A test project utilizing Asyncio and Threading to perform basic admin operations and receive data from multiple sockets.
+
+*developed in this order: test_serv.py -> servUI.py -> better_servui.py*
 ## Features
 Currently, the fileless-server can receive data from an unlimited number of hosts over a tcp socket with an interactive administration tool capable of the following:
 ### List
