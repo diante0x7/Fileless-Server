@@ -159,6 +159,11 @@ async def main():
 
 if __name__ == '__main__':
     banner()
+
+    if len(sys.argv) != 2:
+        print("[!] SYSTEM: Improper command...")
+        print("usage: {} <LPORT>".format(sys.argv[0]))
+        exit(-1)
     try:
         loop = asyncio.get_event_loop()
         loop.create_task(main())
